@@ -1,0 +1,16 @@
+{
+    "writeKey": "your write-key", 
+    "readKey": "your read-key",
+   
+    "upload": {
+      "type": "json",
+      "files": "src/i18n/en/*.json"
+    },
+    "download": {
+      "files": "src/i18n/${lang}/${file}"
+    },
+   
+    "conversion": {},
+   
+    "transformations": []    
+}

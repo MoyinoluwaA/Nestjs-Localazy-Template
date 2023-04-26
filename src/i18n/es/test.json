@@ -1,0 +1,25 @@
+{
+  "ARRAY": [
+    "UNO",
+    "DOS",
+    "TRES"
+  ],
+  "ENGLISH": "Inglés",
+  "HELLO": "Hola",
+  "PRODUCT": {
+    "NEW": "Nuevo producto: {name}"
+  },
+  "cat": "Gato",
+  "cat_name": "Gato: {name}",
+  "day_interval": {
+    "one": "Todos los días",
+    "other": "Cada {count} días",
+    "zero": "Nunca"
+  },
+  "nested": "Vamos de compras: $t(test.day_interval, {{\"count\": {count} }})",
+  "set-up-password": {
+    "followLink": "siga el enlace enviado a su dirección de correo electrónico {email} para restablecer su contraseña",
+    "heading": "Hola, {username}",
+    "title": "Restablecer contraseña"
+  }
+}
